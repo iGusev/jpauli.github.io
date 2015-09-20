@@ -209,7 +209,7 @@ Stack trace:
   thrown in /tmp/php.php on line 9</code></pre>
 <p>As you can see, the line numbers in the stack trace are not the same, they always match the Exception construction and not the Exception throw.</p>
 <h2 id="exceptions-into-the-zend-virtual-machine-executor">Exceptions into the Zend Virtual Machine Executor<a href="#exceptions-into-the-zend-virtual-machine-executor" class="anchor">#</a></h2>
-<p>If you don't know how the Zend Virtual Machine Executor works, you should read <a href="jpauli.github.io/2015/02/05/zend-vm-executor.html">the related article</a>.
+<p>If you don't know how the Zend Virtual Machine Executor works, you should read <a href="http://jpauli.github.io/2015/02/05/zend-vm-executor.html">the related article</a>.
 Now that you have a glance on how the executor works, well, Exceptions are not hard to understand.</p>
 <h3 id="throwing-an-exception">Throwing an Exception<a href="#throwing-an-exception" class="anchor">#</a></h3>
 <p>To throw an Exception, one may use the <code>throw</code> PHP keyword, compiled as a <code>ZEND_THROW</code> OPCode.
